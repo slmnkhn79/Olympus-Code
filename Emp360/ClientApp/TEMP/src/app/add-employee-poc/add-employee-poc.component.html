@@ -1,0 +1,25 @@
+<label>Employee</label>
+<input (keyup)="searchQuery($event.target.value)"  [ngModel]="selectedEmployeeName" name="employee_text_box">
+
+<ul *ngIf="results">
+  <li *ngFor="let result of results ">
+    <a (click)="selectEmployeefromList(result)">
+      {{ result.name }}
+    </a>
+  </li>
+</ul>
+
+
+<label>Type</label>
+<select>
+  <option>POC</option>
+  <option>Team Building</option>
+  <option>Project </option>
+  <option>TCS Gems</option>
+  <option>TCS Events Participation</option>
+  <option>Certification</option>
+  <option>White Papers</option>
+</select>
+
+<label>Description</label>
+<textarea></textarea>

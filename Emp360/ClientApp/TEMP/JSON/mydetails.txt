@@ -1,0 +1,1 @@
+{"name":"Salman Khan ","email":"v-salkha","id":1517646.0,"location":"Pune","assetType":"Desktop","gpm":"v-satupe","machineNo":"01HW873009","projectName":"GPM","seatNo":"S2-2-Z9A-67","msReportingManager":"Kristy Patterson","gpmname":"Sanjay Tupe"}

@@ -1,0 +1,22 @@
+<ul >
+  <li *ngFor="let result of employeeList ">
+    <a>
+      {{ result.name }}
+    </a>
+  </li>
+</ul>
+
+
+<label>Type</label>
+<select>
+  <option>POC</option>
+  <option>Team Building</option>
+  <option>Project </option>
+  <option>TCS Gems</option>
+  <option>TCS Events Participation</option>
+  <option>Certification</option>
+  <option>White Papers</option>
+</select>
+
+
+<router-outlet></router-outlet>
